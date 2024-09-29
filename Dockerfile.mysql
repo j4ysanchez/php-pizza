@@ -1,0 +1,7 @@
+FROM mysql:latest
+
+ENV MYSQL_ROOT_PASSWORD=mysqlrootpassword
+ENV MYSQL_DATABASE=mysql_db
+ENV MYSQL_USER=mysql_user
+ENV MYSQL_PASSWORD=mysqluserpassword
+
